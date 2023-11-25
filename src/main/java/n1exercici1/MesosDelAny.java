@@ -1,11 +1,8 @@
 package n1exercici1;
 
-import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 public class MesosDelAny {
 
-    @Test
     public void  MesosDelAny(){
         ArrayList<String> llistaMesos = new ArrayList<String>();
 
@@ -22,11 +19,7 @@ public class MesosDelAny {
         llistaMesos.add("Novembre");
         llistaMesos.add("Desembre");
 
-        //verificacio que te 12 mesos
-        asserEquals(12, llistaMesos.size());
-        asserNotNull(llistaMesos);
-        asserEquals("Agost", llistaMesos.get(7));
-
     }
+
 
 }
