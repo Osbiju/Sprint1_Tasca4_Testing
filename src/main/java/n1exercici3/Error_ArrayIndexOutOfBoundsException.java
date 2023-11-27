@@ -9,7 +9,9 @@ public class Error_ArrayIndexOutOfBoundsException {
     }
 
     static void provocarErrorTest() {
+
         int[] array = new int[5];
-        array[5] = 0;//provoco error
+        int a = array[array.length];//provoco error duna altre manera
+        //array[5] = 0;//provoco error d'una manera
     }
 }
