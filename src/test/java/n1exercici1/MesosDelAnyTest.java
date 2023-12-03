@@ -25,7 +25,7 @@ class MesosDelAnyTest {
         llistaMesos.add("Novembre");
         llistaMesos.add("Desembre");
 
-        //verificacio que te 12 mesos
+        //verificacions
         assertEquals(12, llistaMesos.size());
         assertNotNull(llistaMesos);
         assertEquals("Agost", llistaMesos.get(7));
