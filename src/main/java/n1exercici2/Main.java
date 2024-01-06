@@ -12,6 +12,7 @@ public class Main {
         entrada.close();
         CalculoDni calculoDni = new CalculoDni(dni);
 
+        //System.out.println("La teva lletra del DNI es: " + calculoDni.getLletra());
 
     }
 }
